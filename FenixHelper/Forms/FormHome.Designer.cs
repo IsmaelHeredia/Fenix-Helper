@@ -81,6 +81,7 @@
             // lvTasks
             // 
             listViewDetailColumn1.HeaderText = "ID";
+            listViewDetailColumn1.Visible = false;
             listViewDetailColumn2.HeaderText = "Key";
             listViewDetailColumn3.HeaderText = "Task";
             this.lvTasks.Columns.AddRange(new Telerik.WinControls.UI.ListViewDetailColumn[] {

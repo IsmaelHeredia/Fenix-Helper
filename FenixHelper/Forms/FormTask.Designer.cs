@@ -168,6 +168,7 @@
             // 
             this.lvArguments.AllowEdit = false;
             listViewDetailColumn1.HeaderText = "ID";
+            listViewDetailColumn1.Visible = false;
             listViewDetailColumn2.HeaderText = "Name";
             listViewDetailColumn3.HeaderText = "Value";
             this.lvArguments.Columns.AddRange(new Telerik.WinControls.UI.ListViewDetailColumn[] {
